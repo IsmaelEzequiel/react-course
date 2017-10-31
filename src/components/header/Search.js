@@ -1,15 +1,17 @@
 import React from 'react';
 
-import { Input } from './Input';
+import Input from './Input';
 
-export const Search = ({searchClass}) => {
+const Search = ({searchClass}) => {
   return (
     <div className={searchClass}>
       <Input
-        type={'text'}
-        placeholder={"Search"}
-        className={"search-input"}
+        type='search'
+        placeholder="Search"
+        inputClass="search-input"
       />
     </div>
   );
 }
+
+export default Search;
