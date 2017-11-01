@@ -13,6 +13,8 @@
   height: 10vw;
   max-height: 200px;
   max-width: 200px;
+  min-width: 84px;
+  min-height: 85px;
   border: .3em solid rgba(0,0,0,.4);
   background-color: #333;
   background-size: cover;
@@ -33,4 +35,10 @@
 
 .avatar-link:hover .avatar-name {
   color: #FFF;
+}
+
+@media screen and (max-width: 800px) {
+  .avatar-name {
+    font-size: 12px;
+  }
 }

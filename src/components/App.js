@@ -9,10 +9,43 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserAvatar
-          avatarUrl={'javascript:;'}
-          avatarImage={avatarImage}
-          name={'Ismael'}/>
+        <div className="profile-container">
+          <div className="profile-list">
+            <span className="profile-title">Quem está assistindo?</span>
+            <ul className="profile-users">
+              <li>
+                <UserAvatar
+                avatarUrl={'javascript:;'}
+                avatarImage={avatarImage}
+                name={'Ismael'}/>
+              </li>
+              <li>
+                <UserAvatar
+                avatarUrl={'javascript:;'}
+                avatarImage={avatarImage}
+                name={'Ismael'}/>
+              </li>
+              <li>
+                <UserAvatar
+                avatarUrl={'javascript:;'}
+                avatarImage={avatarImage}
+                name={'Ismael'}/>
+              </li>
+              <li>
+                <UserAvatar
+                avatarUrl={'javascript:;'}
+                avatarImage={avatarImage}
+                name={'Ismael'}/>
+              </li>
+              <li>
+                <UserAvatar
+                avatarUrl={'javascript:;'}
+                avatarImage={avatarImage}
+                name={'Ismael'}/>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }

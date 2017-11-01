@@ -1,7 +1,45 @@
+html {
+  font-size: 14px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
 body {
   background-color: #141414;
 }
 
 .App {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
 
+.profile-container {
+  display: flex;
+  position: absolute;
+  -webkit-box-pack: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.profile-title {
+  color: #FFF;
+  font-size: 3.5vw;
+  font-weight: 100;
+}
+
+.profile-users li {
+  display: inline-block;
+}
+
+.profile-list {
+  max-width: 80%;
 }
