@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
+
+import avatarImage from '../PICON.png';
 import './App.css';
 
-import Search from './header/Search';
+import UserAvatar from './user/User';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Search searchClass={'search'}/>
+        <UserAvatar
+          avatarUrl={'javascript:;'}
+          avatarImage={avatarImage}
+          name={'Ismael'}/>
       </div>
     );
   }
