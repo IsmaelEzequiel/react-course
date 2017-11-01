@@ -3,7 +3,11 @@
   max-width: 135px;
 }
 
-.avatar_thumb {
+.avatar-link {
+  text-decoration: none;
+}
+
+.avatar-thumb {
   display: block;
   width: 10vw;
   height: 10vw;
@@ -15,19 +19,18 @@
   background-repeat: no-repeat;
 }
 
-.avatar_name {
+.avatar-name {
   display: block;
   text-align: center;
   color: grey;
   line-height: 60px;
   font-size: 1.3vw;
-  text-decoration: none;
 }
 
-.avatar_link:hover .avatar_thumb {
+.avatar-link:hover .avatar-thumb {
   border-color: #FFF;
 }
 
-.avatar_link:hover .avatar_name {
+.avatar-link:hover .avatar-name {
   color: #FFF;
 }
