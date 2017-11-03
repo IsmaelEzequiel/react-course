@@ -1,6 +1,7 @@
 .avatar {
   position: relative;
   max-width: 135px;
+  margin: 10px 0;
 }
 
 .avatar-link {
@@ -9,8 +10,8 @@
 
 .avatar-thumb {
   display: block;
-  width: 10vw;
-  height: 10vw;
+  width: 9vw;
+  height: 9vw;
   max-height: 200px;
   max-width: 200px;
   min-width: 84px;

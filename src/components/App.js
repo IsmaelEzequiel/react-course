@@ -4,6 +4,7 @@ import avatarImage from '../PICON.png';
 import './App.css';
 
 import UserAvatar from './user/User';
+import Button from './common/Button';
 
 class App extends Component {
   render() {
@@ -44,6 +45,12 @@ class App extends Component {
                 name={'Ismael'}/>
               </li>
             </ul>
+
+            <Button
+                btnName={'gerenciar perfis'}
+                btnUrl={'javascript:;'}
+            />
+
           </div>
         </div>
       </div>

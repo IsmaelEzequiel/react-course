@@ -5,7 +5,7 @@ import './ProfileButton.css';
 
 const ProfileButton = ({ btnName, btnUrl }) => {
   return (
-    <div>
+    <div className="button">
       <a href={ btnUrl }>{ btnName }</a>
     </div>
   )

@@ -1,0 +1,12 @@
+.button {
+  margin-top: 50px;
+}
+
+.button a {
+  text-decoration: none;
+  color: grey;
+  padding: 5px 25px;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  border: 1px solid grey;
+}
